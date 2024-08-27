@@ -1,0 +1,44 @@
+.sidebar{
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f4f9;
+    padding: 10px;
+}
+.sidebar img{
+    width: 30px;
+}
+
+.sidebar .menu{
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    width: 40px;
+}
+.sidebar .new-chat{
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: #e6eaf1;
+    color: grey;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.sidebar .recent-chat{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    color: grey;
+    cursor: pointer; 
+}
+.sidebar .recent-prompts-container{
+    color: grey;
+    padding: 0px 30px;
+    line-height: 1.8;
+}
